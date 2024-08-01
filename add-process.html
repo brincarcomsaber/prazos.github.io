@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Processo</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Adicionar Processo</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="add-process.html">Adicionar Processo</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form id="addProcessForm">
+      <label for="processNumber">Número do Processo:</label>
+      <input type="text" id="processNumber" name="processNumber" required>
+      
+      <label for="partyName">Nome da Parte:</label>
+      <input type="text" id="partyName" name="partyName" required>
+      
+      <label for="court">Tribunal:</label>
+      <input type="text" id="court" name="court" required>
+      
+      <label for="dueDate">Data de Vencimento:</label>
+      <input type="date" id="dueDate" name="dueDate" required>
+      
+      <button type="submit">Adicionar Processo</button>
+    </form>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
